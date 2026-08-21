@@ -1,0 +1,35 @@
+{
+  "name": "genpark-b2b-new-media-creator-brand-growth-automator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Autonomous B2B brand growth agent that sources new media creators, matches brand fit, and orchestrates partnership campaigns.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "b2b-brand-growth",
+    "creator-partnership",
+    "new-media",
+    "campaign-automation",
+    "astute"
+  ],
+  "inputs": {
+    "brand_profile": {
+      "type": "object"
+    },
+    "target_audience_persona": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "matched_creators": {
+      "type": "array"
+    },
+    "outreach_sequences": {
+      "type": "array"
+    },
+    "projected_reach": {
+      "type": "object"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
